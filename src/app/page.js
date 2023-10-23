@@ -31,7 +31,7 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <h5 className='text-center mt-[35px] text-[#240B06]'>MI BAUTIZO</h5>
+          <h5 className='text-center mt-[35px] text-[#240B06]'>Mi Bautizo</h5>
           <h1 className='text-center mt-[35px]'>Lia Violeta Paez Rojas</h1>
           <p className='text-center ms:max-w-full md:max-w-[600px] mt-[35px] text-[#240B06] ms:text-[15px] md:text-[20px]'>Señor hoy me presentaran ante ti para ser bañada con la gracia de tu amor, toma mi pequeño corazón entre tus benditas manos y jamás te separes de mi.</p>
         </div>
