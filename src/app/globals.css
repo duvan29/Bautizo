@@ -3,11 +3,20 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
 
 h1{
     font-size: 40px;
     color: #A67D4B;
     font-family: 'Howell Rode', sans-serif;
+}
+
+h5{
+    font-size: 25px;
+    color: #F288AF;
+    font-family: 'Ms Madi', cursive;
 }
 
 h2{

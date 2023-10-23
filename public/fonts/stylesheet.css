@@ -1,9 +1,0 @@
-@font-face {
-  font-family: 'Howell Rode';
-  src: url('/fonts/Howell Rode.woff2') format('woff2'),  /* Agrega formatos de fuente según corresponda */
-       url('/fonts/Howell Rode.woff') format('woff'),
-       url('/fonts/Howell Rode.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
