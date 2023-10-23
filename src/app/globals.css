@@ -6,3 +6,28 @@ main {
     background-image: url('/public/istockphoto-1085611376-170667a.jpg');
     background-size: cover;
 }
+
+h1{
+    font-size: 40px;
+    color: #A67D4B;
+}
+
+h2{
+    font-size: 30px;
+    color: #A67D4B;
+}
+
+h3{
+    font-size: 20px;
+    color: #A67D4B;
+}
+
+h2{
+    font-size: 25px;
+    color: #F288AF;
+}
+
+p{
+    font-size: 20px;
+    color: #240B06;
+}
