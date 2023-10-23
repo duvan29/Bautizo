@@ -2,34 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-main {
-    background-image: url('/public/istockphoto-1085611376-170667a.jpg');
-    background-size: cover;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Tangerine&display=swap');
 
 h1{
     font-size: 40px;
     color: #A67D4B;
-}
-
-h2{
-    font-size: 30px;
-    color: #A67D4B;
-}
-
-h3{
-    font-size: 20px;
-    color: #A67D4B;
+    font-family: 'Howell Rode', sans-serif;
 }
 
 h2{
     font-size: 25px;
     color: #F288AF;
+    font-family: 'Roboto', sans-serif;
 }
+
+h3{
+    font-size: 25px;
+    color: #A67D4B;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    font-size: 20px;
+    color: #A67D4B;
+}
+
 
 p{
     font-size: 20px;
     color: #240B06;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+span{
+    font-size: 15px;
+    color: #240B06;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 body {
