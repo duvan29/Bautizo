@@ -31,3 +31,7 @@ p{
     font-size: 20px;
     color: #240B06;
 }
+
+body {
+    overflow-x: hidden;
+  }

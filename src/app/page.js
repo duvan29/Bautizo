@@ -10,11 +10,17 @@ export default function Home() {
 
   return (
     <>
-          <Image className="absolute -mt-[80px] -ml-[100px]" src={Images.img.aiBg} objectFit="cover" alt="Lia" />
-        {/* <Image className="absolute  mt-0 mr-0" src={Images.img.adBg} objectFit="cover" alt="Lia" /> */}
-        {/* <Image className="absolute  mt-0 ml-0" src={Images.img.aiBg} objectFit="cover" alt="Lia" /> */}
-      <main className="flex min-h-screen flex-col min-w-screen items-center py-24 px-5 bg-white">
-        
+      <div className='relative'>
+        <div className="absolute top-[-75px] left-[-100px]">
+          <Image src={Images.img.aiBg} alt="Lia" />
+        </div>
+        <div className="absolute top-[-35px] right-[-60px]">
+          <Image src={Images.img.adBg} objectFit="cover" alt="Lia" />
+        </div>     
+      </div>
+      
+      <main className={`flex max-h-full flex-col min-w-screen items-center py-24 px-5 bg-${Images.img.border}`}>
+
         <div className='relative'>
           <div className="w-[270px] h-[270px] ml-[30px] mt-[7px] overflow-hidden z-0 absolute">
             <Image className='rounded-full' src={Images.img.lia} layout="fill" objectFit="cover" alt="Lia" />
@@ -94,9 +100,17 @@ export default function Home() {
                   </button>
                 </div>
             </div>
+            <div className="bottom-0 left-0 right-0  overflow-hidden">
+              <div className="absolute ms:bottom-[-950px] md:bottom-[-970px] left-[-50px]">
+                <Image src={Images.img.bdBg} objectFit="cover" alt="Lia" />
+              </div>
+              <div className="absolute ms:bottom-[-960px] md:bottom-[-980px] right-[-100px]">
+                <Image src={Images.img.bi} alt="Lia" />
+              </div>
+            </div>
         </div>
       </main>
-
+      
     </>
   );
 }
