@@ -52,20 +52,20 @@ export default function CountDown () {
             <div className="border-[#A67D4B] p-4 rounded-lg text-center my-[30px] border-2">
                 <div className="flex items-center justify-between">
                     <div className="timer-segment flex flex-col">
-                        <span className="time">{days}</span>
-                        <span className="label">Días</span>
+                        <h3 className="time text-[30px]">{days}</h3>
+                        <h3 className="label">Días</h3>
                     </div>
                     <div className="timer-segment flex flex-col">
-                        <span className="time">{hours}</span>
-                        <span className="label">Horas</span>
+                        <h3 className="time text-[30px]">{hours}</h3>
+                        <h3 className="label">Horas</h3>
                     </div>
                     <div className="timer-segment flex flex-col">
-                        <span className="time">{minutes}</span>
-                        <span className="label">Minutos</span>
+                        <h3 className="time text-[30px]">{minutes}</h3>
+                        <h3 className="label">Minutos</h3>
                     </div>
-                    <div className="timer-segment flex flex-col">
-                        <span className="time">{seconds}</span>
-                        <span className="label">Segundos</span>
+                    <div className="timer-segment flex flex-col ms:hidden md:block">
+                        <h3 className="time text-[30px]">{seconds}</h3>
+                        <h3 className="label">Segundos</h3>
                     </div>
                 </div>
             </div>
