@@ -43,6 +43,7 @@ export default function CountDown() {
   return (
     <>
       <div className="border-[#A67D4B] p-4 rounded-lg text-center my-[30px] border-2">
+        <h3 className="mb-[10px]">Faltan</h3>
         <div className="flex items-center justify-between">
           <div className="timer-segment flex flex-col">
             <h3 className="time text-[30px]">{days}</h3>
