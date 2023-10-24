@@ -50,15 +50,15 @@ export default function CountDown() {
           </div>
           <div className="timer-segment flex flex-col">
             <h3 className="time text-[30px]">{hours}</h3>
-            <h3 className="label">Horas</h3>
+            <h3 className="label">Hs</h3>
           </div>
           <div className="timer-segment flex flex-col">
             <h3 className="time text-[30px]">{minutes}</h3>
-            <h3 className="label">Minutos</h3>
+            <h3 className="label">Min</h3>
           </div>
-          <div className="timer-segment flex flex-col ms:hidden md:block">
+          <div className="timer-segment flex flex-col ">
             <h3 className="time text-[30px]">{seconds}</h3>
-            <h3 className="label">Segundos</h3>
+            <h3 className="label">Seg</h3>
           </div>
         </div>
       </div>
