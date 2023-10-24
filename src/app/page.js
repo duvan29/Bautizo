@@ -61,7 +61,7 @@ export default function Home() {
             </div>
           </div>
           <h3 className='text-center mt-[35px] text-[30px]'>UBICACIÓN</h3>
-          <div className='flex justify-between  mt-[35px]'>
+          <div className='flex justify-between  mt-[10px]'>
             <div className='flex flex-col items-center justify-center max-w-[140px]'>
               <h4>Misa</h4>
                 <div className='flex justify-center items-center'>
