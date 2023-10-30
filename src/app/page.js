@@ -29,8 +29,8 @@ export default function Home() {
             <div className="flex items-center justify-between mt-[35px]">
               <h2 className='border-t-2 border-b-2 md:text-[30px] ms:text-[20px] border-[#F288AF] '>SABADO</h2>
               <div className='flex justify-center items-center flex-col mx-[20px]'>
-                <h2 className='md:text-[40px] ms:text-[35px]'>25 </h2>
-                <h2 className='md:text-[30px] ms:text-[25px]'>Diciembre</h2>
+                <h2 className='md:text-[40px] ms:text-[35px]'>11</h2>
+                <h2 className='md:text-[30px] ms:text-[25px]'>Noviembre</h2>
               </div>
               <h2 className='border-t-2 border-b-2 md:text-[30px] ms:text-[20px] border-[#F288AF]'>10:00AM</h2>
             </div>
@@ -51,10 +51,10 @@ export default function Home() {
             </div>
           </div>
           <h3 className='text-center mt-[35px] text-[30px]'>UBICACIÓN</h3>
-          <div className='flex justify-between  mt-[10px]'>
-            <div className='flex flex-col items-center justify-center max-w-[140px]'>
+          <div className='flex md:justify-between ms:items-center ms:flex-col md:flex-row  mt-[10px]'>
+            <div className='flex flex-col items-center justify-center md:max-w-[140px] ms:max-w-[250px]'>
               <h4>Misa</h4>
-                <div className='flex justify-center items-center'>
+                <div className='flex justify-center items-center '>
                   <div className="border-[#A67D4B] border-2 text-white p-4 rounded-full flex items-center justify-center m-5">
                   <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"
                   className="w-8 h-8"
@@ -62,8 +62,9 @@ export default function Home() {
                   </div>
                 </div>
               <span className=' text-center'>parroquia san pedro de usme</span><br/>
+              <h4 className='border-t-2 border-b-2 border-[#A67D4B]'>10:00AM</h4>
             </div>
-            <div className='flex flex-col items-center justify-center max-w-[140px] mt-[18px]'>
+            <div className='flex flex-col items-center justify-center md:max-w-[140px] ms:max-w-[250px] mt-[18px]'>
                 <h4>Recepción</h4>
                 <div>
                   <div className="border-[#A67D4B] border-2 text-white p-4 rounded-full flex items-center justify-center m-5">
@@ -72,6 +73,7 @@ export default function Home() {
                   </div>
                 </div>
               <span className=' text-center'> Finca famir paez (vereda chiguaza-usme)</span><br/>
+              <h4 className='border-t-2 border-b-2 border-[#A67D4B]'>10:00AM</h4>
             </div>
           </div>
           <h3 className='text-center mt-[10px] text-[30px]'>ASISTENCIA</h3>
