@@ -52,7 +52,7 @@ export default function Home() {
           </div>
           <h3 className='text-center mt-[35px] text-[30px]'>UBICACIÓN</h3>
           <div className='flex md:justify-between ms:items-center ms:flex-col md:flex-row  mt-[10px] mb-[30px]'>
-            <div className='flex flex-col items-center justify-center md:max-w-[140px] ms:max-w-[250px]'>
+            <div className='flex flex-col items-center justify-center md:max-w-[150px] ms:max-w-[250px]'>
               <h4>Misa</h4>
                 <div className='flex justify-center items-center '>
                   <div className="border-[#A67D4B] border-2 text-white p-4 rounded-full flex items-center justify-center m-5">
@@ -64,7 +64,7 @@ export default function Home() {
               <span className=' text-center'>parroquia san pedro de usme</span><br/>
               <h4 className='border-t-2 border-b-2 border-[#A67D4B]'>10:00AM</h4>
             </div>
-            <div className='flex flex-col items-center justify-center md:max-w-[140px] ms:max-w-[250px] mt-[18px]'>
+            <div className='flex flex-col items-center justify-center md:max-w-[180px] ms:max-w-[250px]'>
                 <h4>Recepción</h4>
                 <div>
                   <div className="border-[#A67D4B] border-2 text-white p-4 rounded-full flex items-center justify-center m-5">
