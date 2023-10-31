@@ -62,7 +62,7 @@ export default function Home() {
                   </div>
                 </div>
               <span className=' text-center'>parroquia san pedro de usme</span><br/>
-              <h4 className='border-t-2 border-b-2 border-[#A67D4B]'>10:00AM</h4>
+              <h4 className='border-t-2 border-b-2 border-[#A67D4B]'>7:00AM</h4>
             </div>
             <div className='flex flex-col items-center justify-center md:max-w-[180px] ms:max-w-[250px] ms:mt-[18px] md:mt-0'>
                 <h4>Recepción</h4>
@@ -73,7 +73,7 @@ export default function Home() {
                   </div>
                 </div>
               <span className=' text-center'> Finca famir paez (vereda chiguaza-usme)</span><br/>
-              <h4 className='border-t-2 border-b-2 border-[#A67D4B]'>10:00AM</h4>
+              <h4 className='border-t-2 border-b-2 border-[#A67D4B]'>11:00AM</h4>
             </div>
           </div>
           <h3 className='text-center mt-[10px] text-[30px]'>ASISTENCIA</h3>
