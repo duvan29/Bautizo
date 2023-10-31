@@ -27,12 +27,12 @@ export default function Home() {
         </div>
           <div className="">
             <div className="flex items-center justify-between mt-[35px]">
-              <h2 className='border-t-2 border-b-2 md:text-[30px] min-w-[120px] text-center ms:text-[20px] border-[#F288AF] '>DOMINGO</h2>
+              <h2 className='border-t-2 border-b-2 md:text-[30px] md:min-w-[120px] ms:min-w-[90px] text-center ms:text-[20px] border-[#F288AF] '>DOMINGO</h2>
               <div className='flex justify-center items-center flex-col mx-[20px]'>
                 <h2 className='md:text-[40px] ms:text-[35px]'>12</h2>
                 <h2 className='md:text-[30px] ms:text-[25px]'>Noviembre</h2>
               </div>
-              <h2 className='border-t-2 border-b-2 md:text-[30px] min-w-[120px] text-center ms:text-[20px] border-[#F288AF]'>7:00AM</h2>
+              <h2 className='border-t-2 border-b-2 md:text-[30px] md:min-w-[120px] ms:min-w-[90px] text-center ms:text-[20px] border-[#F288AF]'>7:00AM</h2>
             </div>
             <CountDown/>
           <div className="flex justify-evenly mt-[35px] md:w-[450px] ms:w-full">
