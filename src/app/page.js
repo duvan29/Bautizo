@@ -32,7 +32,7 @@ export default function Home() {
                 <h2 className='md:text-[40px] ms:text-[35px]'>11</h2>
                 <h2 className='md:text-[30px] ms:text-[25px]'>Noviembre</h2>
               </div>
-              <h2 className='border-t-2 border-b-2 md:text-[30px] ms:text-[20px] border-[#F288AF]'>10:00AM</h2>
+              <h2 className='border-t-2 border-b-2 md:text-[30px] ms:text-[20px] border-[#F288AF]'>7:00AM</h2>
             </div>
             <CountDown/>
           <div className="flex justify-evenly mt-[35px] md:w-[450px] ms:w-full">
