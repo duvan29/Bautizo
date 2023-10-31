@@ -8,7 +8,7 @@ export default function CountDown() {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
-    const target = new Date("11/11/2023 7:00:00");
+    const target = new Date("11/12/2023 7:00:00");
 
     const interval = setInterval(() => {
       const now = new Date();
