@@ -39,7 +39,7 @@ export default function Home() {
             <div className="w-1/3 flex flex-col justify-center items-center">
               <h3 className='mb-[10px]'>PAPÁS</h3>
               <p className='ms:text-[15px] md:text-[20px]'>Aledxa Rojas</p>
-              <p className='ms:text-[15px] md:text-[20px]'>Robinson Paez</p>
+              <p className='ms:text-[15px] md:text-[20px]'>Robinsson Paez</p>
             </div>
             <div className='w-[80px] h-[80px] flex justify-center items-center'>
               <Image src={Images.img.paloma} objectFit="cover" alt="paloma" />
